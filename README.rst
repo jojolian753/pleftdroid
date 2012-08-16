@@ -34,6 +34,7 @@ To build PleftDroid You will need:
   You just have to put the jar in the libraries classpath in project settings.
 
 To import the project in Eclipse:
+
 1. unpack the source code in a directory of your choice.
 2. click on ``File -> New -> Project...``.
 3. select ``Android -> Android Project from exixting code`` then press ``Next``.
