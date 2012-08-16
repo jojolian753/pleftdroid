@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">PleftDroid</string>
+    
+    <!-- Activity Titles -->
+    <string name="activity_pickdate">Choisissez la Date et l\'Heure</string>
+    <string name="activity_pickcontact">Choisissez un Contact</string>
+    
+    <!-- Activities Layout -->
+    <string name="no_events">Vous n\'avez pas ancore creé ou reçu une invitation à un rendez-vous.\n
+                             Utilisez le bouton menu pour en créer un.\n
+                             </string> <!--
+                             Si c\'est la première foi que vous démarrez la App,\n
+                             utilisez le bouton menu pour les Réglages.
+    </string-->
+    <string name="label_description">Déscription:</string>
+    <string name="label_invitees">Invités:</string>
+    <string name="label_proposeddates">Dates proposées:</string>
+    <string name="label_mayproposedates">Les invités peuvent proposer autres dates</string>
+    <string name="button_createappt">Envoyer invitations</string>
+    <string name="label_selectemail">Choisissez l\'e-mail du contact:</string>
+    <string name="no_contacts">Vous n\'avez pas de contacts avec un e-mail!</string>
+    <string name="label_choosedatetime">Choisissez la Date et l\'Heure:</string>
+    <string name="label_selecteddates">Dates sélectées:</string>
+    <string name="button_adddate">Ajouter date</string>
+    <string name="button_removelast">Effacer dernière</string>
+    <string name="button_done">Terminé</string>
+    <string name="button_cancel">Annuler</string>
+    <string name="label_pleftserver">Serveur Pleft:</string>
+    <string name="label_yourname">Votre Nom:</string>
+    <string name="label_youremail">Votre E-mail:</string>
+    <string name="label_role">Rôle:</string>
+    <string name="label_status">Status</string>
+    <string name="label_email">E-mail:</string>
+    <string name="check_usecname">Utilise nom du Contact au lieu du e-mail</string>
+    <string name="check_showservdetail">Montrer détails Serveur dans liste rendez-vous</string>
+    <string name="button_saveprefs">Sauvegarder Réglages</string>
+    
+    <!-- Options Menu -->
+    <string name="menu_create">Planifier nouveau Rendez-vous</string>
+    <string name="menu_prefs">Modifier Réglages</string>
+    
+    <string name="menu_resendinv">Renvoyer invitation</string>
+    <string name="menu_invanother">Inviter autre contact</string>
+    <string name="menu_proposedate">Proposer autre date</string>
+    <string name="menu_done">Terminé</string>
+    
+    <string name="menu_rminvitee">Effacer dernier Invité</string>
+    <string name="menu_rmdate">Effacer dernière Date</string>
+    <!-- <string name="menu_"></string> -->
+    
+    <!-- Context Menu -->
+    <!--string name="menu_detail"></string-->
+    <string name="menu_delete">Supprimer Rendez-vous</string>
+    
+    <string name="menu_addtocal">Ajouter au calendrier</string>
+    
+    
+    
+    <!-- Dialogs/Toast -->
+    <!-- <string name="toast_"></string>
+    <string name="dialog_title_"></string>
+    <string name="dialog_msg_"></string> -->
+    <string name="dialog_title_connproblem">Problème de connexion</string>
+    <string name="dialog_msg_connproblem">Impossible de se connecter au serveur: s\'il vous plaît vérifiez l\'URL du serveur et votre connexion réseau.</string>
+    <string name="dialog_title_nonet">Absence Réseau</string>
+    <string name="dialog_msg_nonet">Une connexion au réseau est nécessaire\npour cette fonction.\n\nVérifiez vos réglages.</string>
+    <string name="dialog_title_settingsreq">Réglages incomplets</string>
+    <string name="dialog_msg_settingsreq">La configuration dans Réglages\nn\'est pas complète.\n\nCompletez vos réglages.</string>
+    <string name="dialog_title_deleteappt">Supprimer Rendez-vous</string>
+    <string name="dialog_msg_deleteappt">Vous voulez vraiment supprimer ce Rendez-vous?</string>
+    <string name="dialog_title_noapptdetails">Rendez-vous sans détails</string>
+    <string name="dialog_msg_noapptdetails">Il n\'y a pas de détails sur le rendez-vous:\n
+    			                            si c\'est crée per vous, cela veut dire que vous ne l\'avez pas vérifié
+    			                            en cliquant sur le lien dans la e-mail de vérification.</string>
+    			                            
+    <string name="dialog_title_nocontactsemail">Contacts sans e-mail</string>
+    <string name="dialog_msg_nocontactsemail">Vos contacts semblent avois seulment des numeros et pas de e-mail</string>
+    <string name="dialog_title_pleasewaitdetails">Attendez...</string>
+    <string name="dialog_msg_pleasewaitdetails">Chargement détails ...</string>
+    
+    <string name="dialog_title_apptcreated">Rendez-vous Creée</string>
+    <string name="dialog_msg_apptcreated">Rendez-vous Creée.Vous allez recevoir un email de Pleft avec un lien pour valider le Rendez-vous.
+                                          Ouvrez ce lien avec PleftDroid et Pleft enverra les invitations.</string>
+    
+    <string name="toast_apptsaved">Rendez-vous actualisé.</string>
+    <string name="toast_createapptfail">Quelque chose ne s\'est pas bien passé pendant la création du Rendez-vous, controlez:\n - vos Réglages\n - votre accès à Internet</string>
+    <string name="toast_couldnotopenurl">Erreur: impossible ouvrir URL</string>
+    <string name="toast_linknotsupp">Ce lien n\'est pas supporté par PleftDroid!</string>
+    <string name="toast_shlinknotvalid">Le lien que vous partagez n\'est pas correct!</string>
+    <string name="toast_dtyetpresent">Cette Date et Heure\nest déja dans la liste!</string>
+    <string name="toast_dtnotbefore">La Date doit être\nà partir d\'aujourd\'hui!</string>
+    <string name="toast_problemdetails">Il y a eu un problème\npendant le chargément du détails du Rendez-vous\n du serveur.</string>
+    <string name="toast_problemrequest">Il y a eu un problème, re-essayez.\n</string>
+    <string name="toast_contactreinvited">Le contact a été re-invité a ce rendez-vous.\n</string>
+    <string name="toast_invalidservaddr">Vous n\'avez pas entré correctement l\'adresse du serveur!</string>
+    <string name="toast_invalidemailaddr">Vous n\'avez pas entré correctement l\'adresse e-mail!</string>
+    
+    <!-- Misc -->
+    <string name="label_newappt">Nouveau Rendez-vous: tapez ici pour les détails.</string>
+    <string name="event_completeform">Completez le formulaire.\n
+     Vous devez remplir:\n- la Déscription\n- les Invités\n- les Dates</string>
+</resources>

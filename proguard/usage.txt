@@ -1,0 +1,62 @@
+com.google.gson.Cache:
+    public abstract java.lang.Object removeElement(java.lang.Object)
+com.google.gson.DefaultConstructorAllocator:
+    42:42:final boolean isInCache(java.lang.Class)
+com.google.gson.DefaultTypeAdapters:
+    61:1034:DefaultTypeAdapters()
+    251:251:static com.google.gson.ParameterizedTypeHandlerMap getDefaultSerializers()
+com.google.gson.DefaultTypeAdapters$DefaultDateTypeAdapter:
+    322:323:DefaultTypeAdapters$DefaultDateTypeAdapter(int)
+com.google.gson.DefaultTypeAdapters$GregorianCalendarTypeAdapter:
+    private static final java.lang.String YEAR
+    private static final java.lang.String MONTH
+    private static final java.lang.String DAY_OF_MONTH
+    private static final java.lang.String HOUR_OF_DAY
+    private static final java.lang.String MINUTE
+    private static final java.lang.String SECOND
+com.google.gson.DelegatingJsonElementVisitor
+com.google.gson.FieldAttributes:
+    private static final java.lang.String MAX_CACHE_PROPERTY_NAME
+com.google.gson.Gson:
+    static final boolean DEFAULT_JSON_NON_EXECUTABLE
+    private static final java.lang.String JSON_NON_EXECUTABLE_PREFIX
+com.google.gson.JsonArray:
+    70:71:void reverse()
+com.google.gson.JsonElementVisitor
+com.google.gson.JsonTreeNavigator
+com.google.gson.LruCache:
+    50:50:public synchronized java.lang.Object removeElement(java.lang.Object)
+com.google.gson.MemoryRefStack:
+    55:55:public boolean isEmpty()
+    65:65:public com.google.gson.ObjectTypePair peek()
+com.google.gson.ObjectTypePair:
+    142:142:public boolean isPreserveType()
+com.google.gson.Primitives:
+    34:34:private Primitives()
+    82:82:public static boolean isWrapperType(java.lang.Class)
+com.google.gson.Streams:
+    30:153:Streams()
+com.google.gson.UpperCaseNamingPolicy
+com.google.gson.VersionConstants
+net.droidcoder.pleftdroid.AppPreferences:
+    private static final java.lang.String NAME_SUFFIX
+    private static final java.lang.String EMAIL_SUFFIX
+    private static final java.lang.String EULA_PREFIX
+net.droidcoder.pleftdroid.DateVoteBarView:
+    private static final int BAR_HEIGHT
+net.droidcoder.pleftdroid.EventDetailActivity:
+    private static final int RESENDINV_ID
+    private static final int INVANOTHER_ID
+    private static final int PROPOSEDATE_ID
+    private static final int DONE_ID
+net.droidcoder.pleftdroid.PleftBroker:
+    private static final int CONN_TIMEOUT
+    private static final int SO_TIMEOUT
+net.droidcoder.pleftdroid.PleftDroidActivity:
+    private android.os.Bundle mBundle
+net.droidcoder.pleftdroid.PleftDroidDbAdapter:
+    private static final java.lang.String TAG
+    private static final java.lang.String DB_NAME
+    private static final java.lang.String DB_TABLE
+    private static final int DATABASE_VERSION
+    private static final java.lang.String DATABASE_CREATE

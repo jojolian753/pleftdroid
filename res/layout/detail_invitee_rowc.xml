@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_gravity="left" android:id="@+id/avail" android:layout_height="wrap_content" android:src="@drawable/icon" android:padding="5dp"/>
+        <TextView android:layout_width="wrap_content" android:text=""
+                  android:layout_height="wrap_content" android:textSize="30sp"
+                  android:textColor="#FFFFFF"
+                  android:id="@+id/adate"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/lldcomment" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:id="@+id/cmnticon" android:layout_height="wrap_content" android:src="@drawable/comment" android:padding="5dp"/>
+        <TextView android:text="" android:id="@+id/dcomment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="22sp" />
+    </LinearLayout>
+</LinearLayout>

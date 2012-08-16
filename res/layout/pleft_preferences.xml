@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+<ScrollView
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+        <TextView 	android:text="@string/label_pleftserver"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content">
+        </TextView>
+        <EditText 	android:layout_width="fill_parent"
+        			android:id="@+id/pserver"
+        			android:text=""
+        			android:layout_height="wrap_content">
+        </EditText>
+        <TextView android:text="@string/label_yourname" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <EditText android:id="@+id/uname" android:layout_height="wrap_content" android:text="" android:layout_width="fill_parent"></EditText>
+        <TextView 	android:text="@string/label_youremail"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content">
+        </TextView>
+        <EditText 	android:id="@+id/uemail"
+        			android:text=""
+        			android:layout_height="wrap_content"
+        			android:layout_width="fill_parent"
+        			android:inputType="textEmailAddress">
+        </EditText>
+        <LinearLayout android:id="@+id/linearLayoutFl1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:layout_height="wrap_content" android:text="@string/check_usecname" android:layout_width="wrap_content" android:scrollHorizontally="false" android:id="@+id/usedname" android:layout_weight="1"></CheckBox>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayoutFl2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:layout_height="wrap_content" android:text="@string/check_useplefttheme" android:layout_width="wrap_content" android:scrollHorizontally="false" android:id="@+id/useplefttheme" android:layout_weight="1"></CheckBox>
+            <CheckBox android:layout_height="wrap_content" android:layout_weight="2" android:text="@string/check_showservdetail" android:layout_width="wrap_content" android:id="@+id/showdetails"></CheckBox>
+        </LinearLayout>
+	        <LinearLayout android:id="@+id/linearLayout3"
+				android:layout_height="fill_parent" android:orientation="vertical"
+				android:gravity="bottom" android:layout_width="fill_parent" android:paddingTop="10sp">
+				<Button android:text="@string/button_saveprefs"
+				android:layout_height="wrap_content" android:id="@+id/saveprefs"
+				android:layout_width="fill_parent" android:layout_gravity="bottom"
+				android:gravity="center"/>
+			</LinearLayout>
+    </LinearLayout>
+    
+</ScrollView>
+
+
+</LinearLayout>

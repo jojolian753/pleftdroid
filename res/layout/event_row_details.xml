@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    
+    <TextView android:id="@+id/adesc" android:layout_height="wrap_content" android:textSize="25dp" android:layout_width="fill_parent"/>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+        <TextView android:text="@string/label_role" android:id="@+id/t1" android:layout_height="wrap_content" android:textSize="16dp" android:layout_width="wrap_content" android:layout_weight="1"/>
+        <TextView android:text="@string/label_status" android:id="@+id/t2" android:layout_height="wrap_content" android:textSize="16dp" android:layout_width="wrap_content" android:gravity="center" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2">
+        <TextView android:text="Role" android:id="@+id/arole" android:layout_height="wrap_content" android:textSize="18dp" android:layout_width="wrap_content" android:layout_weight="1"/>
+        <TextView android:text="Status" android:id="@+id/astatus" android:layout_height="wrap_content" android:textSize="18dp" android:layout_width="wrap_content" android:gravity="center" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayout3" android:background="#151e7e">
+        <TextView android:text="@string/label_pleftserver" android:id="@+id/t3" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="16dp" android:layout_width="wrap_content"/>
+        <TextView android:text="Pleft server" android:id="@+id/apserver" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="18dp" android:layout_width="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/LinearLayout4" android:background="#151e7e">
+    	<TextView android:text="@string/label_email" android:id="@+id/t4" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="16dp" android:layout_width="wrap_content"/>
+        <TextView android:text="E-mail" android:id="@+id/auser" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="18dp" android:layout_width="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

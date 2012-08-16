@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical" android:layout_height="wrap_content" android:layout_gravity="center" android:minWidth="300sp">
+    <LinearLayout android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_width="fill_parent" android:gravity="center" android:layout_height="fill_parent" android:layout_weight="1">
+        <ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/comment" android:layout_height="wrap_content" android:layout_gravity="center"/>
+        <EditText android:layout_width="fill_parent" android:id="@+id/addc_comment" android:textSize="25sp" android:layout_height="wrap_content" android:layout_gravity="top"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:background="#aaa" android:gravity="bottom" android:layout_gravity="bottom" android:layout_height="fill_parent" android:layout_weight="2">
+        <Button android:text="Ok" android:id="@+id/addc_butok" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:minWidth="125dp"/>
+        <Button android:layout_width="fill_parent" android:text="@string/button_cancel" android:id="@+id/addc_butcanc" android:layout_height="wrap_content" android:layout_weight="1" android:maxWidth="125dp"/>
+    </LinearLayout>
+</LinearLayout>

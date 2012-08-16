@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="menu_about">About</string>
+	<string name="about">The App that lets you easily use the Pleft online appointment planner ( http://code.google.com/p/pleft/ ) from your mobile device.\n\n
+						 Licensed under GPLv3,\nsee http://opensource.org/licenses/gpl-3.0\n
+						 DEVELOPED BY:\n
+	                     Riccardo Massera\n
+	                     r.massera@thecoder4.eu\n\n
+	                     WEBSITE:\n
+	                     http://pleftdroid.thecoder4.eu/\n\n
+	                     Copyright © 2011, 2012 Riccardo Massera
+	</string>    
+</resources>

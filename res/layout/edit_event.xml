@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+		<LinearLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:orientation="vertical">
+		    
+		    <TextView android:text="@string/label_description" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		    <EditText android:text="" android:id="@+id/edescription" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		    <TextView android:text="@string/label_invitees" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		    <LinearLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:orientation="horizontal">
+		    <EditText android:text="" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    		  android:id="@+id/einvitees" android:editable="false" android:layout_weight="1" android:focusableInTouchMode="false" android:focusable="false"></EditText>
+		    <Button
+			android:id="@+id/addinvitee"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="+" android:layout_weight="4"/>
+			</LinearLayout>
+			
+		    <TextView android:text="@string/label_proposeddates" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		    <LinearLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:orientation="horizontal">
+		    <EditText android:text="" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    		  android:id="@+id/edatetimes" android:editable="false" android:layout_weight="1" android:focusableInTouchMode="false" android:focusable="false">
+		    </EditText>
+		    <Button
+			android:id="@+id/adddate"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="+" android:layout_weight="4"/>
+		    </LinearLayout>
+		    <CheckBox android:text="@string/label_mayproposedates" android:id="@+id/mayproposedate" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		</LinearLayout>
+		
+    </ScrollView>
+	
+	<Button
+		android:id="@+id/sendinvite"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/button_createappt" />
+
+</LinearLayout>

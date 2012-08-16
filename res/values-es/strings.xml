@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">PleftDroid</string>
+    
+    <!-- Activity Titles -->
+    <string name="activity_pickdate">Seleccionar Fecha y hora</string>
+    <string name="activity_pickcontact">Seleccionar Contacto</string>
+    
+    <!-- Activities Layout -->
+    <string name="no_events">Aún no ha creado o no ha sido invitado a una cita...\n
+                             Utilice el botón de menú para crear una nueva.\n
+                             </string> <!--
+                             Si esta es la primera vez que ejecute la aplicación,\n
+                             por favor, utilice el botón de menú para configurar las preferencias.
+    </string-->
+    <string name="label_description">Descripción:</string>
+    <string name="label_invitees">Invitados:</string>
+    <string name="label_proposeddates">Fechas propuestas:</string>
+    <string name="label_mayproposedates">Los invitados pueden proponer más fechas</string>
+    <string name="button_createappt">Enviar invitaciones</string>
+    <string name="label_selectemail">Elije contacto de correo electrónico :</string>
+    <string name="no_contacts">No tiene ningún contacto con un e-mail</string>
+    <string name="label_choosedatetime">Elige la fecha y hora:</string>
+    <string name="label_selecteddates">Fechas Seleccionadas:</string>
+    <string name="button_adddate">Agregar la fecha</string>
+    <string name="button_removelast">Quitar última</string>
+    <string name="button_done">Hecho</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="label_pleftserver">Servidor Pleft:</string>
+    <string name="label_yourname">Tu nombre:</string>
+    <string name="label_youremail">Tu E-mail:</string>
+    <string name="label_role">Role:</string>
+    <string name="label_status">Status</string>
+    <string name="label_email">E-mail:</string>
+    <string name="check_usecname">Use Nombre del contacto en lugar de e-mail</string>
+    <string name="check_showservdetail">Mostrar detalles del servidor en la lista de citas</string>
+    <string name="button_saveprefs">Guardar Preferencias</string>
+    
+    <!-- Options Menu -->
+    <string name="menu_create">Planificar nueva Cita</string>
+    <string name="menu_prefs">Editar Preferencias</string>
+    
+    <string name="menu_resendinv">Reenvíe la invitación</string>
+    <string name="menu_invanother">Invitar a otro contacto.</string>
+    <string name="menu_proposedate">Proponer una nueva fecha</string>
+    <string name="menu_done">Hecho</string>
+    
+    <string name="menu_rminvitee">Quitar ultimo Invitado</string>
+    <string name="menu_rmdate">Quitar ultima Fecha</string>
+    <!-- <string name="menu_"></string> -->
+    
+    <!-- Context Menu -->
+    <!--string name="menu_detail">Detalle de la cita</string-->
+    <string name="menu_delete">Delete Appointment</string>
+    
+    <string name="menu_addtocal">Agregar al calendario</string>
+    
+    
+    
+    <!-- Dialogs/Toast -->
+    <!-- <string name="toast_"></string>
+    <string name="dialog_title_"></string>
+    <string name="dialog_msg_"></string> -->
+    <string name="dialog_title_connproblem">Problema de Connexión</string>
+    <string name="dialog_msg_connproblem">No se puede conectar con el servidor: por favor verifique el URL del servidor y la conexión de red.</string>
+    <string name="dialog_title_nonet">No hay conexión de red.</string>
+    <string name="dialog_msg_nonet">Esta función requiere\nuna conexión de red.\n\nPor favor, compruebe la configuración.</string>
+    <string name="dialog_title_settingsreq">Ajustes requeridos</string>
+    <string name="dialog_msg_settingsreq">La configuración en Preferencias\nno está completa.\n\nPor favor, completa la configuración.</string>
+    <string name="dialog_title_deleteappt">Eliminar Cita</string>
+    <string name="dialog_msg_deleteappt">¿Está seguro que desea eliminar esta Cita?</string>
+    <string name="dialog_title_noapptdetails">No detalles del la Cita</string>
+    <string name="dialog_msg_noapptdetails">No hay detalles de la cita:\n
+    			                            si eres el que invita, esto significa que no verificó\n
+    			                            su invitación cliqueando el enlace\n
+    			                            de la e-mail de verificación.</string>
+    			                            
+    <string name="dialog_title_nocontactsemail">No hay contactos con e-mail</string>
+    <string name="dialog_msg_nocontactsemail">Los contactos parecen tener sólo teléfonos y no e-mail</string>
+    <string name="dialog_title_pleasewaitdetails">Espere por favor...</string>
+    <string name="dialog_msg_pleasewaitdetails">Recuperando detalles ...</string>
+    
+    <string name="dialog_title_apptcreated">Cita creada</string>
+    <string name="dialog_msg_apptcreated">Cita creada.En breve recibirás un correo electrónico de Pleft con un enlace para confirmar la Cita.
+                                          Abrir este enlace con PleftDroid y Pleft enviará las invitaciones.</string>
+    
+    <string name="toast_apptsaved">Cita guardada.</string>
+    <string name="toast_createapptfail">Algo salía mal en la creación de la cita, comprobar:\n - las preferencias\n - la conexión a la Red</string>
+    <string name="toast_couldnotopenurl">Error al abrir URL.</string>
+    <string name="toast_linknotsupp">Lo sentimos, este enlace no es compatible con PleftDroid!</string>
+    <string name="toast_shlinknotvalid">Lo sentimos, el enlace que está compartiendo no es válido!</string>
+    <string name="toast_dtyetpresent">Esta fecha y hora\nestá todavía en la lista!</string>
+    <string name="toast_dtnotbefore">La fecha no puede ser antes de hoy!</string>
+    <string name="toast_problemdetails">Ha habido un problema al recuperar los detalles de la cita\n del servidor.</string>
+    <string name="toast_problemrequest">Ha habido un problema con el request, inténtalo de nuevo.\n</string>
+    <string name="toast_contactreinvited">El contacto ha sido re-invitado a esta cita.\n</string>
+    <string name="toast_invalidservaddr">La dirección de servidor que ha introducido no es válida!</string>
+    <string name="toast_invalidemailaddr">La dirección de correo electrónico que ha introducido no es válida!</string>
+    
+    <!-- Misc -->
+    <string name="label_newappt">Nueva Cita: Pulsar aquí para recuperar los detalles.</string>
+    <string name="event_completeform">Por favor,completar el formulario.\n
+     Se debe ingresar:\n- una Descripción\n- los Invitados\n- las Fechas</string>
+</resources>

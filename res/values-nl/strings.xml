@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<string name="app_name">PleftDroid</string>
+
+<!-- Activity Titles -->
+<string name="activity_pickdate">Selecteer Datum en tijd</string>
+<string name="activity_pickcontact">Selecteer contactpersoon</string>
+
+<!-- Activities Layout -->
+<string name="no_events">
+Je hebt nog geen afspraak gemaakt en bent nog niet voor een afspraak uitgenodigd.\n Gebruik de menu knop om een nieuwe afspraak te maken.\n
+</string> <!-- Als dit de eerste keer is dat je de Applicatie gebruikt,\n ga dan naar het menu om je voorkeuren in te stellen.
+</string-->
+<string name="label_description">Beschrijving:</string>
+<string name="label_invitees">Genodigden:</string>
+<!--string name="label_proposedates">Stel data voor:</string-->
+<string name="label_proposeddates">Voorgestelde data:</string>
+<string name="label_mayproposedates">Genodigden mogen meer data voorstellen</string>
+<string name="button_createappt">Verstuur uitnodigingen</string>
+<string name="label_selectemail">Kies het emailadres van een contactpersoon:</string>
+<string name="no_contacts">Je hebt geen emailadres van je contactpersonen!</string>
+<string name="label_choosedatetime">Kies datum en tijd:</string>
+<string name="label_selecteddates">Geselecteerde data:</string>
+<string name="button_adddate">Voeg datum toe</string>
+<string name="button_removelast">Verwijder laatste</string>
+<string name="button_done">Klaar</string>
+<string name="button_cancel">Cancel</string>
+<string name="label_pleftserver">Pleft server:</string>
+<string name="label_yourname">Je naam:</string>
+<string name="label_youremail">Je emailadres:</string>
+<string name="label_role">Rol:</string>
+<string name="label_status">Status</string>
+<string name="label_email">Emailadres:</string>
+<string name="check_usecname">Gebruik de naam van je contactpersoon in plaats van het emailadres</string>
+<string name="check_showservdetail">Laat de server details zien in de lijst met afspraken</string>
+<string name="button_saveprefs">Sla voorkeuren op</string>
+
+<!-- Options Menu -->
+<string name="menu_create">Maak nieuwe afspraak</string>
+<string name="menu_prefs">Verander voorkeuren</string>
+<string name="menu_resendinv">Verstuur de uitnodiging nogmaals</string>
+<string name="menu_invanother">Nodig nog een contactpersoon uit</string>
+<string name="menu_proposedate">Stel nieuwe datum voor</string>
+<string name="menu_done">Klaar</string>
+<string name="menu_rminvitee">Verwijder laatste genodigde</string>
+<string name="menu_rmdate">Verwijder laatste datum</string>
+<!-- <string name="menu_"></string> -->
+
+<!-- Context Menu -->
+<!--string name="menu_detail">Details van de afspraak</string-->
+<string name="menu_delete">Verwijder afspraak</string>
+<string name="menu_addtocal">Voeg aan kalender toe</string>
+
+<!-- Dialogs/Toast -->
+<!--<string name="toast_"></string> <string name="dialog_title_"></string> <string name="dialog_msg_"></string>-->
+    <string name="dialog_title_connproblem">Verbindingsprobleem</string>
+    <string name="dialog_msg_connproblem">Er kan geen verbinding met uw server worden gemaakt: controleer server URL en uw netwerkverbinding.</string>
+<string name="dialog_title_nonet">Geen contact met netwerk</string>
+<string name="dialog_msg_nonet">Deze functie vereist\na een connectie met het netwerk.\n\n Controleer je instellingen.</string>
+<string name="dialog_title_settingsreq">Instellingen die nodig zijn</string>
+<string name="dialog_msg_settingsreq">De configuratie bij voorkeuren\n is niet compleet.\n\nMaak je instellingen compleet.</string>
+<string name="dialog_title_deleteappt">Verwijder afspraak</string>
+<string name="dialog_msg_deleteappt">Weet je zeker dat je deze afspraak wilt verwijderen?</string>
+<string name="dialog_title_noapptdetails">Geen details van de afspraak</string>
+<string name="dialog_msg_noapptdetails">Er zijn geen details van de afspraak beschikbaar:\n Als je de initiator bent, betekent dit dat je de afspraak nog niet hebt geverifiëerd door op de link in de verificatie-email te klikken.</string>
+<string name="dialog_title_nocontactsemail">Geen contactpersonen met een emailadres</string>
+<string name="dialog_msg_nocontactsemail">In je telefoon staan alleen de nummers van je contactpersonen, maar geen emailadressen</string>
+<string name="dialog_title_pleasewaitdetails">Een moment geduld alsjeblieft...</string>
+<string name="dialog_msg_pleasewaitdetails">Details opvragen ...</string>
+<string name="dialog_title_apptcreated">Afspraak gemaakt</string>
+<string name="dialog_msg_apptcreated">Afspraak gemaakt.\nJe zal een e-mail Binnenkort ontvangen van Pleft met een link naar de afspraak te bevestigen.\n
+Open deze link met PleftDroid en Pleft zal de uitnodigingen versturen.</string>
+
+<string name="toast_apptsaved">Appointment saved.</string>
+<string name="toast_createapptfail">Er ging iets mis tijdens het maken van de afspraak, controleer:\n - je voorkeuren\n - je internetverbinding</string>
+<string name="toast_couldnotopenurl">Foutmelding:Kan de URL niet openen</string>
+<string name="toast_linknotsupp">Sorry, deze link wordt niet ondersteund door PleftDroid!</string>
+<string name="toast_shlinknotvalid">Sorry, de link die je deelt is niet geldig!</string>
+<string name="toast_dtyetpresent">Deze datum en tijd\nstaan al in de lijst!</string>
+<string name="toast_dtnotbefore">De datum kan niet in\nin het verleden plaatsvinden!</string>
+<string name="toast_problemdetails">Er is een probleem ontstaan\ntijdens het ophalen van de details van de afspraak\n van de server.</string>
+<string name="toast_problemrequest">Er is een probleem met de aanvraag, probeer het nogmaals.\n</string>
+<string name="toast_contactreinvited">De contactpersoon is nogmaals uitgenodigd voor de afspraak.\n</string>
+<string name="toast_invalidservaddr">U heeft een ongeldig serveradres opgegeven!</string>
+<string name="toast_invalidemailaddr">U heeft een ongeldig e-mailadres opgegeven!</string>
+
+<!-- Misc -->
+<string name="label_newappt">Nieuwe afspraak: Klik hier voor meer informatie.</string>
+<string name="event_completeform">Vul het formulier in.\n Je moet het volgende invullen:\n- Een beschrijving\n- De genodigden\n- De data
+</string>
+</resources>

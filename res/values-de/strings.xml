@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    
+    <string name="app_name">PleftDroid</string>
+    
+    <!-- Activity Titles -->
+    <string name="activity_pickdate">Wählen Datum und Zeit aus</string>
+    <string name="activity_pickcontact">Wählen ein Kontakt aus</string>
+    
+    <!-- Activities Layout -->
+    <string name="no_events">Sie haben noch keine Termine geplant und Sie sind noch nicht eingeladen..\n
+                             Verwenden die menu Taste um ein neues zu erstellen.\n
+                             </string> <!--
+                             Wenn es ist die erste mal dass Sie die App ausführen,\n
+                             bitte verwenden die menu Taste um die Einstellungen füllen.
+    </string-->
+    <string name="label_description">Beschreibung:</string>
+    <string name="label_invitees">Teilnehmer:</string>
+    <string name="label_proposeddates">Vorgeschlagene Datum:</string>
+    <string name="label_mayproposedates">Eingeladene Teilnehmer können weitere Termine vorschlagen</string>
+    <string name="button_createappt">Einladungen Senden</string>
+    <string name="label_selectemail">Wählen Sie ein Kontakt e-mail aus :</string>
+    <string name="no_contacts">Sie haben kein Kontakt mit e-mail!</string>
+    <string name="label_choosedatetime">Wählen Sie ein Datum und Zeit aus:</string>
+    <string name="label_selecteddates">Ausgewählte Datum:</string>
+    <string name="button_adddate">Datum hinzufügen</string>
+    <string name="button_removelast">Letzte entfernen</string>
+    <string name="button_done">Fertig</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="label_pleftserver">Pleft server:</string>
+    <string name="label_yourname">Ihr Name:</string>
+    <string name="label_youremail">Ihr E-mail:</string>
+    <string name="label_role">Funktion:</string>
+    <string name="label_status">Status</string>
+    <string name="label_email">E-mail:</string>
+    <string name="check_usecname">Verwende Kontakt Name statt e-mail</string>
+    <string name="check_showservdetail">Server details im Termin übersicht zeigen</string>
+    <string name="button_saveprefs">Einstellungen speichern</string>
+    
+    <!-- Options Menu -->
+    <string name="menu_create">Neu Termin Planung</string>
+    <string name="menu_prefs">Einstellungen</string>
+    
+    <string name="menu_resendinv">Einladung wieder senden</string>
+    <string name="menu_invanother">Andere Kontakt einladen</string>
+    <string name="menu_proposedate">Neu Datum vorschlagen</string>
+    <string name="menu_done">Fertig</string>
+    
+    <string name="menu_rminvitee">Letzte teilnehmer entfernen</string>
+    <string name="menu_rmdate">Letzte Datum entfernen</string>
+    <!-- <string name="menu_"></string> -->
+    
+    <!-- Context Menu -->
+    <!--string name="menu_detail"></string-->
+    <string name="menu_delete">Termin löschen</string>
+    
+    <string name="menu_addtocal">Im Kalender hinzufügen</string>
+    
+    
+    
+    <!-- Dialogs/Toast -->
+    <!-- <string name="toast_"></string>
+    <string name="dialog_title_"></string>
+    <string name="dialog_msg_"></string> -->
+    <string name="dialog_title_connproblem">Connection problem</string>
+    <string name="dialog_msg_connproblem">Es konnte keine Verbindung zum Server erstellt werden: Bitte überprüfen Sie die Server-URL und Ihre Netzwerkverbindung.</string>
+    <string name="dialog_title_nonet">Keine netzwerk verbindung</string>
+    <string name="dialog_msg_nonet">Diese funktion braucht\neine netzwerk verbindung.\n\nBitte verifizieren Ihre Einstellungen.</string>
+    <string name="dialog_title_settingsreq">Einstellungen gebraucht</string>
+    <string name="dialog_msg_settingsreq">Die Konfiguration im Einstellungen\nist nicht komplett.\n\nBitte ergänzen sie ihre eintellungen.</string>
+    <string name="dialog_title_deleteappt">Termin löschen</string>
+    <string name="dialog_msg_deleteappt">Sind Sie sicher diesen Termin zu löschen?</string>
+    <string name="dialog_title_noapptdetails">Kein Termin detail</string>
+    <string name="dialog_msg_noapptdetails">Kein Termin detail ist verfügbar:\n
+    			                            falls sie den einlader sind, das meint sie haben nicht ihr Termin verifiziert
+    			                            beim clicken auf dem link im verification e-mail.</string>
+    			                            
+    <string name="dialog_title_nocontactsemail">Kein Kontakt mit e-mail</string>
+    <string name="dialog_msg_nocontactsemail">Ihre Kontakten scheinen nur Nummern zu haben und keine e-mail</string>
+    <string name="dialog_title_pleasewaitdetails">Bitte warten...</string>
+    <string name="dialog_msg_pleasewaitdetails">Detail ladung ...</string>
+    
+    <string name="dialog_title_apptcreated">Termin erstellt</string>
+    <string name="dialog_msg_apptcreated">Termin erstellt.\nIn Kürze erhalten Sie eine E-Mail von Pleft mit einem Link um dem Termin zu bestätigen.
+                                          Öffnen Sie das Link mit PleftDroid und Pleft werden die Einladungen zu schicken.</string>
+    
+    <string name="toast_apptsaved">Termin aktualisiert.</string>
+    <string name="toast_createapptfail">Es gab ein fehler warend die Termin erstellung, bitte checken:\n - ihre Einstellungen\n - ihre Internet verbindung</string>
+    <string name="toast_couldnotopenurl">Fehler: das URL konnte nicht geöffnet werden</string>
+    <string name="toast_linknotsupp">Der Link ist nicht gültig fur PleftDroid!</string>
+    <string name="toast_shlinknotvalid">Der Link sie teilen ist nicht gültig!</string>
+    <string name="toast_dtyetpresent">Diese Datum und Zeit\nist noch in die Liste!</string>
+    <string name="toast_dtnotbefore">Die Datum kann nicht\nbevor Heute sein!</string>
+    <string name="toast_problemdetails">Es gab ein Problem\nbeim Laden der Termindetails\n vom Server.</string>
+    <string name="toast_problemrequest">Es gab ein Problem mit die Request, bitte versuchen sie nochmals.\n</string>
+    <string name="toast_contactreinvited">Der Kontakt wurde zu diesem Termin wieder eingeladen.\n</string>
+    <string name="toast_invalidservaddr">Sie haben eine ungültige Server-Adresse eingegeben!</string>
+    <string name="toast_invalidemailaddr">Sie haben eine ungültige Email-Adresse eingegeben!</string>
+    
+    <!-- Misc -->
+    <string name="label_newappt">Neu Termin: tippen hier um Detail zu laden.</string>
+    <string name="event_completeform">Bitte füllen sie ein das formular.\n
+     Sie mussen eingeben:\n- eine Description\n- die Teilnehmer\n- die Datum</string>
+</resources>

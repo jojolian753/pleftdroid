@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="horizontal" android:layout_height="wrap_content">
+
+   <LinearLayout android:layout_width="fill_parent" android:id="@+id/pdates" android:layout_height="fill_parent" android:orientation="vertical" android:layout_weight="1">
+       <TextView android:text="@string/label_proposeddates" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+       <ListView android:id="@+id/pdateslv" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+   </LinearLayout>
+
+   <LinearLayout android:layout_width="fill_parent" android:id="@+id/participants" android:layout_height="fill_parent" android:orientation="vertical" android:layout_weight="3">
+   <TextView android:text="@string/label_invitees" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+   <ListView android:id="@+id/peoplelv" android:layout_height="fill_parent" android:layout_width="fill_parent"/>
+   </LinearLayout>
+       
+
+</LinearLayout>
